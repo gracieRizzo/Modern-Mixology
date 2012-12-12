@@ -3,35 +3,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Master Template</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../styles.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-.wrapper .navigation table {
-	text-align: center;
-}
-</style>
 </head>
 
 <body>
 <div class="wrapper">
-    	<div class="navigation"><table width="951" border="5" cellspacing="0" cellpadding="2">
-  <tr>
-    <td width="150"><a href="Mixology.html">What is Mixology</a></td>
-    <td width="150"><a href="Cocktail Culture.html">The Cocktail Culture</a></td>
-    <td width="150"><a href="Modern Mixology.html">Modern Mixology</a></td>
-    <td width="150"><a href="Moleculary Mixology.html">Molecular Mixology</a></td>
-    <td width="150"><a href="Mr. Mixologist.html">Mr. Mixologist</a></td>
-    <td width="150"><a href="Cocktails A-Z.html">A-Z Cocktails</a></td>
-    <td width="150"><a href="Tips and Tricks.html">Tips and Tricks</a></td>
-  </tr>
-</table>
-
+  <div class="navigation">
+    <table width="950" border="0" align="center" cellpadding="5" cellspacing="5">
+      <tr>
+        <td><a href="../index.html">Homepage</a></td>
+        <td><a href="../cocktail-culture.html">The Cocktail Culture</a></td>
+        <td><a href="../modern-mixology.html">Modern Mixology</a></td>
+        <td><a href="../molecular-mixology.html">Molecular Mixology</a></td>
+        <td><a href="../mr-mixologist.html">Mr. Mixologist</a></td>
+        <td><a href="../cocktails-a-z.html">A-Z Cocktails</a></td>
+        <td><a href="../tips-and-tricks.html">Tips and Tricks</a></td>
+      </tr>
+    </table>
   </div>
-        <div class="content"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
-        </div>
-    </div>
+ <div class="content"> <!-- TemplateBeginEditable name="Master Content Area" --><h1>[Header]</h1><!-- TemplateEndEditable --> </div>
+ <div class="content"> <!-- TemplateBeginEditable name="Content" --><p> [Information] </p><!-- TemplateEndEditable --></div>
+</div>
 </body>
 </html>

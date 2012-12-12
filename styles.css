@@ -1,23 +1,64 @@
 body {
-	font-family: "MS Serif", "New York", serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 16px;
-	background-color: #1F2224;
-	margin: 0px;
-	padding: 0px;
 	color: #F5D3AD;
-	font-style: oblique;
 	font-weight: bold;
+	margin: 0px;
+	padding: 20px;
+	background-color: #1F2224;
 }
+
 .wrapper {
 	color: #F5D3AD;
-	background-color: #F78373;
+	background-color: #1F2224;
 	width: 950px;
-	margin-top: 0px;
 	margin-right: auto;
-	margin-bottom: 0px;
 	margin-left: auto;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+}
+.content {
+	background-color: #732432;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.navigation table {
+	text-align: center;
+	border-top-color: #1f2224;
+	border-right-color: #1f2224;
+	border-bottom-color: #1f2224;
+	border-left-color: #1f2224;
+	background-color: #3f3c40;
+}
+
+
+a {
+	font-size: 16px;
+	color: #FFF;
+}
+a:visited {
+	color: #F78373;
+}
+a:hover {
+	color: #FFC;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	color: #F5D3AD;
+	text-transform: capitalize;
+	border: medium solid #333;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(Images/header-image.jpg);
+	background-position: center;
+	font-style: oblique;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 15px;
+}
+.navigation tr td {
+	text-align: center; background-color:#732432
+}
+.wrapper .content {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
 }
