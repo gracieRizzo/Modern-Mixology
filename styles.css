@@ -29,6 +29,10 @@ body {
 	border-left-color: #1f2224;
 	background-color: #3f3c40;
 }
+li {
+	font-size: 14px;
+	color: #F5D3AD;
+}
 
 
 a {
